@@ -1,12 +1,9 @@
-package com.example.demo.repository;
-
-import org.apache.ibatis.annotations.Mapper;
+package com.example.demo.repsitory;
 
 /**
  * ユーザー情報 Mapper
  */
-@Mapper
-public interface UserMapper {
+public interface MainMapper {
     /**
      * ユーザー情報検索
      * @param user 検索用リクエストデータ
